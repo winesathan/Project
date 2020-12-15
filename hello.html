@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello</title>
+</head>
+<link rel="icon" type="image/png" href="img/icon3.png">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/libs/fontawesome/css/all.min.css">
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	body{
+		font-family: 'Poppins', sans-serif;
+		background: linear-gradient(to right,#171616,#ba1f16);
+	}
+	.circle{
+		width: 100%;
+		min-height: 100vh;
+		background: #bda42a;
+		position: absolute;
+		clip-path: circle(50% at right -20%);
+	}
+	.navigation{
+		position: relative;
+		width: 100%;
+		height: 20%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.navigation .icon{
+		padding-left: 40px;
+		padding-top: 20px;
+	}
+	.navigation .icon h1{
+		font-size: 50px;
+		color: white;
+		text-shadow: -4px -4px 5px black;
+	}
+	.navigation .navitem{
+		padding-top: 20px;
+	}
+	.navigation .navitem ul{
+		display: flex;
+		align-items: center;
+	}
+	.navigation .navitem ul li{
+		padding-right: 20px;
+		list-style: none;
+	}
+	.navigation .navitem ul li a{
+		text-decoration: none;
+		color: white;
+		font-size: 20px;
+	}
+	.navigation .navitem ul li a:hover{
+		border-bottom: 3px solid #ba1f16;
+	}
+	.gineus{
+		margin: 80px 50px;
+		position: relative;
+		width: 30%;
+		height: 40%;
+	}
+	.gineus h1{
+		font-size: 50px;
+		color: white;
+	}
+	.gineus p{
+		position: relative;
+		width: 16%;
+		padding:10px 30px;
+		background: #ba1f16;
+		margin-top: 30px;
+		border-radius: 20px;
+		cursor: pointer;
+		font-size: 16px;
+		color: white;
+	}
+	.gineus p:hover{
+		background: white;
+		color: #ba1f16;;
+	}
+	.pgh_box{
+		margin-top: 20%;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		position: relative;
+	}
+	.pgh{
+		width: 24%;
+		height: 20%;
+		background: #a68f1f;
+		margin-left: 30px;
+		border-radius: 10px;
+	}
+	.pgh h2{
+		padding: 10px 10px;
+	}
+	.pgh p{
+		padding: 10px 10px;
+		text-align: justify-all;
+	}
+	.img-box{
+		position: absolute;
+		top: 60%;
+		right: 1%;
+		border-radius: 30%;
+	}
+	.img-box li{
+		list-style: none;
+	}
+	.img-box li a{
+	display: inline-block;
+	background: #362e2e;
+	margin-left: 20px;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	transition: 0.2s ease-in-out;
+	}
+	.img-box li a:hover{
+	background: #e51e2a;
+	transform: translateX(-10px);
+	}
+	.img-box li a img{
+	filter: invert(1);
+	transform: scale(0.5);
+	}
+	.img-box1{
+		position: absolute;
+		top: 70%;
+		right: 1%;
+		border-radius: 30%;
+	}
+	.img-box1 li{
+		list-style: none;
+	}
+	.img-box1 li a{
+	display: inline-block;
+	background: #362e2e;
+	margin-left: 20px;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	transition: 0.2s ease-in-out;
+	}
+	.img-box1 li a:hover{
+	background: #e51e2a;
+	transform: translateX(-10px);
+	}
+	.img-box1 li a img{
+	filter: invert(1);
+	transform: scale(0.5);
+	}
+	.footer-box{
+		box-sizing: border-box;
+		margin-top: 30px;
+		width: 100%;
+		height: 20%;
+		background: #bda42a;;
+	}
+	.footer-box .copy{
+		margin: 100px;
+	}
+</style>
+<body>
+	<div class="circle">
+	</div>
+	<div class="navigation">
+		<div class="icon">
+			<h1>Hello</h1>
+		</div>
+		<div class="navitem">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">About us</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Signup</a></li>
+				<li><a href="#"><span>|</span></a></li>
+				<li><a href="#">Login</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="gineus">
+		<h1>We're Gineus agency</h1>
+			<p>Contact</p>
+	</div>
+	<div class="pgh_box">
+	<div class="pgh">
+		<h2>Future Vision</h2>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+	</div>
+	<div class="pgh">
+		<h2>Product Design</h2>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+	</div>
+	<div class="pgh">
+		<h2>Inovative Solutions</h2>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+	</div>
+	</div>
+	<div class="img-box">
+		<li><a href="#"><img src="img/facebook.png"></a></li>
+	</div>
+	<div class="img-box1">
+		<li><a href="#"><img src="img/instagram.png"></a></li>
+	</div>
+	<div class="footer-box">
+		<p class="copy"> <center>Copyright© 2020</center></p>
+		<center><p>Design by<a href="#" style="text-decoration: none;">Jack.</a>Published by Stark Industries. Modified by <a href="#" style="text-decoration: none;">Stark Industries,web design and development company in Myanmar</a></p></center>
+	</div>
+</body>
+</html>

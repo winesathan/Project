@@ -1,0 +1,79 @@
+body{
+	background-image: url(../img/aa.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: scroll;
+	font-family: 'Poppins', sans-serif;
+	}
+.signup{
+	font-size: 20px;
+}
+.signupform{
+	width: 330px;
+	height: 500px;
+	background-color: white;
+	border:1px solid white;
+	border-radius: 10px;
+	margin: 100px 500px;
+	padding: 20px;
+}
+
+input[type="text"]{
+	
+	width: 300px;
+	border-style: none;
+	border-bottom: 1px solid;
+	border-color: rgba(0,28,0,0.51);
+	font-family: 'Poppins', sans-serif;
+}
+input[type="text"]:focus{
+	outline: none;
+}
+input[type="email"]{
+	width: 300px;
+	border-style: none;
+	border-bottom: 1px solid;
+	border-color: rgba(0,28,0,0.51);
+	font-family: 'Poppins', sans-serif;
+	}
+	input[type="email"]:focus{
+	outline: none;
+}
+input[type="password"]{
+	width: 300px;
+	border-style: none;
+	border-bottom: 1px solid;
+	border-color: rgba(0,28,0,0.51);
+	font-family: 'Poppins', sans-serif;
+}
+input[type="password"]:focus{
+	outline: none;
+}
+input[type="date"]{
+	width: 300px;
+	border-style: none;
+	border-bottom: 1px solid;
+	border-color: rgba(0,28,0,0.51);
+	font-family: 'Poppins', sans-serif;
+}
+input[type="date"]:focus{
+	outline: none;
+}
+input[type="submit"]{
+	width: 300px;
+	height: 37px;
+	background-color: rgba(8,128,189,0.67);
+	border:0px solid white;
+	border-radius: 10px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.p2{
+	text-align: center;
+	font-size: 14px;
+}
+.p3{
+	font-size: 14px;
+	opacity:.9;
+}

@@ -1,0 +1,13 @@
+body{
+	background-image: url(https://wallpapercave.com/wp/wp2587127.jpg);
+	background-size: cover;
+}
+
+.formtag{
+	border-style: solid;
+	width: 400px;
+	height: 360px;
+	background-color: white;
+	background-position: top center;
+	text-align: center;
+}

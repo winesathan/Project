@@ -1,0 +1,82 @@
+body{
+	background-image: url(../img/aa.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: white;
+	font-family: 'Poppins', sans-serif;
+}
+img{
+	padding-left: 70px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+
+}
+.border{
+	width: 240px;
+	height: 350px;
+	background-color: white;
+	border: 1px solid black;
+	border-radius: 20px;
+	margin: 150px 550px;
+}
+
+.username{
+	padding-left: 10px;
+	padding-bottom: 10px;
+	
+	
+}
+.password{
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+
+.name{
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 20px;
+	line-height: 30px;
+	padding-left: 10px;
+
+}
+.name:focus{
+	outline:none;
+}
+.pwd{
+	width: 200px;
+	border: 1px solid black;
+	border-radius: 20px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+.pwd:focus{
+	outline: none;
+}
+.lgin{
+	width: 207px;
+	border: 1px solid black;
+	border-radius: 20px;
+	line-height: 30px;
+	margin-left: 10px;
+	background-color: red;
+	color: white;
+}
+.lgin:focus{
+	outline: none;
+}
+.checkbox{
+	color: black;
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+.p1{
+	padding-left: 10px;
+}
+
+p{
+	color: black;
+}
+.signup{
+	text-decoration: none;
+}

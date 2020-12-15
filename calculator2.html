@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+</head>
+<style type="text/css">
+	body{
+		background: linear-gradient(to right,#00AAFF,#00FF6C);
+		font-family: 'Poppins', sans-serif;
+		
+	}
+	.calculator{
+		width:308px;
+		height: 400px;
+		border: 1px solid black;
+		border-radius: 30px;
+		margin: 200px auto;
+		background-color: rgba(53,108,127,1.00);
+	}
+	.display{
+		width:240px;
+		height: 60px;
+		text-align: right;
+		background-color: black;
+		font-size: 18px;
+		color: white;
+		
+	}
+	.dis{
+		padding-top: 60px;
+		padding-left: 30px;
+	}
+	.table{
+		padding-top: 10px;
+		padding-left: 30px; 
+	}
+	.ac{
+		width:58px;
+		height: 30px;
+		font-size: 18px;
+		background-color: rgba(213,99,8,0.84);
+	}
+	.signbut {
+		width:58px;
+		height: 30px;
+		font-size: 18px;
+	}
+	.equal{
+		width:58px;
+		height: 140px;
+		font-size: 18px;
+		background-color: rgba(213,99,8,0.84);
+	}
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+<body>
+	<div class="calculator">
+		
+	<div class="dis"><input type="text" name="display" id="display" class="display" placeholder="0"></div>
+	<div class="table" id="num"><table>
+		<tbody>
+			<tr>
+				<td><button name="plus" id="plus" class="signbut" onclick="sign('+')">+</button></td>
+				<td><button name="minus" id="minus" class="signbut" onclick="sign('-')">-</button></td>
+				<td><button name="multi" id="multi" class="signbut" onclick="sign('*')">x</button></td>
+				<td><button name="div" id="div" class="signbut" onclick="sign('/')">/</button></td>
+			</tr>
+			<tr>
+				<td><button name="seven" id="seven" class="signbut" onclick="sign('7')">7</button></td>
+				<td><button name="eight" id="eight" class="signbut" onclick="sign('8')">8</button></td>
+				<td><button name="nine" id="nine" class="signbut" onclick="sign('9')">9</button></td>
+				<td rowspan="4"><button name="equal" id="equal" class="equal"  onclick="equal()">=</button></td>
+			</tr>
+			<tr>
+				<td><button name="four" id="four" class="signbut" onclick="sign('4')">4</button></td>
+				<td><button name="five" id="five" class="signbut" onclick="sign('5')">5</button></td>
+				<td><button name="six" id="six" class="signbut" onclick="sign('6')">6</button></td>
+			</tr>
+			<tr>
+				<td><button name="one" id=one class="signbut" onclick="sign('1')">1</button></td>
+				<td><button name="two" id="two" class="signbut" onclick="sign('2')">2</button></td>
+				<td><button name="three" id="three" class="signbut" onclick="sign('3')">3</button></td>
+			</tr>
+			<tr>
+				<td><button name="zero" id="zero" class="signbut" onclick="sign('0')">0</button></td>
+				<td><button name="dot" id="dot" class="signbut" onclick="sign('.')">.</button></td>
+				<td><input type="reset" name="reset" id="reset" class="ac" value="AC" onclick="clean()"></td>
+			</tr>
+		</tbody>
+		
+	</table>
+</div>
+
+	</div>
+
+</body>
+<script type="text/javascript">
+	function sign(sign){
+		document.getElementById("display").value+=sign;
+	}
+	function clean(){
+		document.getElementById("display").value="";
+	}
+	function equal(){
+		document.getElementById("display").value=eval(document.getElementById("display").value);
+	}
+</script>
+</html>
